@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cw8p00w33exs1"]
+
+[ext_resource type="Script" path="res://start.gd" id="1_c4hei"]
+[ext_resource type="PackedScene" uid="uid://bsg587iyi2a0i" path="res://Players/jasper.tscn" id="2_60ico"]
+[ext_resource type="Script" path="res://Players/Jasper_scripts/jasper.gd" id="3_mq5pf"]
+
+[node name="Start" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c4hei")
+
+[node name="Jasper" parent="." instance=ExtResource("2_60ico")]
+script = ExtResource("3_mq5pf")

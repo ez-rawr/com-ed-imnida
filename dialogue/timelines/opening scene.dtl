@@ -1,0 +1,22 @@
+[style name="zaky"]
+join Jasper (:|) center [animation="Instant In" length="0.0"]
+Jasper: It sure is hot outside..
+Jasper: Can't do anything but think about very important thingies under this tree.
+Jasper: Like what if I just...
+- disappeared?
+	update Jasper (sad) center [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+	Jasper: would they miss me?
+- stay under this tree forever..
+	update Jasper (smirk) center [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+	Jasper: I would become one with the earth.
+	Jasper: That would be so cool!
+- fell asleep and everyone leaves me?
+	update Jasper (sad) center [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+	Jasper: I would miss mom, dad, and everyone in this village.
+leave --All-- [animation="Instant Out" length="0.0"]
+*BOOGSH*
+join Jasper (woah) rightmost [animation="Instant In" length="0.0"]
+Jasper (woah open): Are Billy and Kiki fighting again?
+leave --All--
+[Go to Billy and Kiki's house\: West]
+[signal arg="show_move_instructions"]

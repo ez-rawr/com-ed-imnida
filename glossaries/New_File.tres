@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="DialogicGlossary" load_steps=2 format=3 uid="uid://c38cbqyhryoju"]
+
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Glossary/glossary_resource.gd" id="1_gqy75"]
+
+[resource]
+script = ExtResource("1_gqy75")
+entries = {
+"Billy": {
+"alternatives": ["Billy"],
+"case_sensitive": true,
+"name": "Billy",
+"text": "Kiki's father",
+"title": "Village Blacksmith"
+},
+"Jasper": {
+"alternatives": ["Jasper"],
+"case_sensitive": false,
+"extra": ":3",
+"name": "Jasper",
+"text": "t̵̡̝̠̖̲̖̥̲̤̳̙̰̲̟̣͌́̑̀̈͗h̷͈̔̃̍̈́̀͘e̴̬̠͇͈̟͐̄̀͊̀̑̀̓́̈̔̊͝͝ ̴̗͛̃c̵̨͎͕̦͇̈̉͂̍̀̉̀͌͠͠ṷ̵̧̠͉̪͗͊̊̾̀͂͐̿̈́̈̽̾͒͜͠͝r̴͉̕s̶̱͔̯̝͉̜̲̠̗̩̏̈̈̚͜͝ȩ̷̨̭͉̦̙̤̟̬̣̜̣̜͒̏͗̉̇̂̕d̶̛͕̥̝͔̟̠̗̼͔͉̽̌̒̅̈́͊̑̈́̔̃̋͋̒͜͝ ̶̡̦͉̝̬̙̯̼̫͚̬͛̿̇̀̄̚̕͜ọ̷̡̧̧̞̱̳̲̦͙͙̔͛̓̂̀̍̇̄̔̓̚̚n̸̢̞͉̟͕̤̈́̈̋̌̂͊ë̵̢̝̠̖̠̮͉̫̪̪̣̍̿͜ͅͅ",
+"title": "Main character"
+},
+"Kiki": {
+"alternatives": ["Kiki"],
+"case_sensitive": true,
+"extra": "Kinda pretty...",
+"name": "Kiki",
+"text": "Billy's daughter. ",
+"title": "Village brat."
+}
+}
+enabled = true
+_translation_id = ""
+_translation_keys = {}

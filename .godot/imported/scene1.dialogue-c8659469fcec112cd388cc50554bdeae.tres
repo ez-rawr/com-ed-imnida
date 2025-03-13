@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_1bfst"]
+
+[resource]
+script = ExtResource("1_1bfst")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Jasper")
+first_title = "0"
+lines = {
+"0": {
+"id": "0",
+"next_id": "1",
+"type": "title"
+},
+"1": {
+"character": "Jasper",
+"id": "1",
+"next_id": "2",
+"text": "[speed=0.4]It sure is hot today...",
+"type": "dialogue"
+},
+"2": {
+"character": "Jasper",
+"id": "2",
+"next_id": "4",
+"text": "This is MSU-CETD [do! Jasper.walk_down()]level of [wave]hotttt[/wave].",
+"type": "dialogue"
+},
+"3": {
+"id": "3",
+"next_id": "4",
+"type": ""
+},
+"4": {
+"id": "4",
+"is_snippet": false,
+"next_id": "end",
+"next_id_after": "",
+"type": "goto"
+},
+"5": {
+"id": "5",
+"next_id": "6",
+"type": ""
+},
+"6": {
+"id": "6",
+"is_snippet": false,
+"next_id": "end",
+"next_id_after": "",
+"type": "goto"
+}
+}
+raw_text = "~ start
+Jasper: [speed=0.4]It sure is hot today...
+Jasper: This is MSU-CETD [do! Jasper.walk_down()]level of [wave]hotttt[/wave]. 
+
+=> END
+"
+metadata/dialogue_manager_version = "2.44.4"

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cw5yskirixwnw"
+path="res://.godot/imported/Magic Fantasy Music - The Magician.mp3-ef2393e8a8060c5c8ee273a7dfd9e60b.mp3str"
+
+[deps]
+
+source_file="res://backgrounds/super_trivia/Magic Fantasy Music - The Magician.mp3"
+dest_files=["res://.godot/imported/Magic Fantasy Music - The Magician.mp3-ef2393e8a8060c5c8ee273a7dfd9e60b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

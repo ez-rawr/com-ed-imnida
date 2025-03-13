@@ -1,0 +1,130 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+"default_portrait": ":D",
+"description": "Kiki's father. Blacksmith",
+"display_name": "Billy",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(10, 0),
+"portraits": {
+":3": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (49).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+":D": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (42).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+":D2": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (43).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+":|": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (44).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"WOAH": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (50).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"angry teeth": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (52).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"no mouth": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/billy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (51).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (45).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile open": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (47).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile open2": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (48).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"woah open": {
+"export_overrides": {
+"image": "\"res://Players/BILLY/PORTRAIT/billy avatar/avatar (46).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 1.0
+}

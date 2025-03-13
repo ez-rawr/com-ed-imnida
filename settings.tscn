@@ -1,0 +1,64 @@
+[gd_scene load_steps=7 format=3 uid="uid://b32umoiohaee1"]
+
+[ext_resource type="Script" path="res://settings.gd" id="1_kg2pb"]
+[ext_resource type="Texture2D" uid="uid://ce7d4ssxc41wm" path="res://backgrounds/settings.png" id="2_xeg2e"]
+[ext_resource type="Texture2D" uid="uid://ddu3xt5j72g2s" path="res://textures/back:next.png" id="3_ax65l"]
+[ext_resource type="Script" path="res://texture_button.gd" id="4_sd30a"]
+[ext_resource type="Texture2D" uid="uid://c4weu70gqpo81" path="res://textures/controls.png" id="5_4j3eu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qvnk1"]
+texture = ExtResource("2_xeg2e")
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kg2pb")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_qvnk1")
+
+[node name="TextureButton" type="TextureButton" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.148
+anchor_top = 0.935
+anchor_right = 0.148
+anchor_bottom = 0.935
+offset_left = -73.496
+offset_top = -47.6201
+offset_right = 72.504
+offset_bottom = 47.3799
+texture_normal = ExtResource("3_ax65l")
+stretch_mode = 0
+script = ExtResource("4_sd30a")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureButton2" type="TextureButton" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.498
+anchor_top = 0.751
+anchor_right = 0.498
+anchor_bottom = 0.751
+offset_left = -237.696
+offset_top = -65.652
+offset_right = 1246.3
+offset_bottom = 344.348
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.32, 0.320001)
+texture_normal = ExtResource("5_4j3eu")
+
+[connection signal="pressed" from="Panel/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Panel/TextureButton2" to="." method="_on_texture_button_2_pressed"]

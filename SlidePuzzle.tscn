@@ -1,0 +1,57 @@
+[gd_scene load_steps=12 format=3 uid="uid://dnmi705ytkql0"]
+
+[ext_resource type="Script" path="res://slide_puzzle.gd" id="1_rxrqj"]
+[ext_resource type="Texture2D" uid="uid://bxngqgmhxjj3p" path="res://resized_image_2.png" id="1_xymv0"]
+[ext_resource type="Texture2D" uid="uid://npd4r7knq6ly" path="res://resized_image_3.png" id="3_o76m8"]
+[ext_resource type="Texture2D" uid="uid://d3lflnay5rbso" path="res://resized_image_4.png" id="4_pvaxp"]
+[ext_resource type="Texture2D" uid="uid://cyownbycmdf5o" path="res://resized_image_5.png" id="5_fach5"]
+[ext_resource type="Texture2D" uid="uid://bahvwa4pvwfbv" path="res://resized_image_6.png" id="6_myivr"]
+[ext_resource type="Texture2D" uid="uid://c38dck6ibq84l" path="res://resized_image_7.png" id="7_ayfjc"]
+[ext_resource type="Texture2D" uid="uid://5hpc85hofawk" path="res://resized_image_8.png" id="8_2ma8e"]
+[ext_resource type="Texture2D" uid="uid://cmy3nstcthuhj" path="res://resized_image_9.png" id="9_1cgl0"]
+[ext_resource type="Texture2D" uid="uid://cd25lx8kjmcpj" path="res://resized_image_10.png" id="10_npbpb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nh7k3"]
+size = Vector2(795, 480)
+
+[node name="Main" type="Area2D"]
+script = ExtResource("1_rxrqj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(399, 241)
+shape = SubResource("RectangleShape2D_nh7k3")
+
+[node name="Tile" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-265, -160)
+texture = ExtResource("1_xymv0")
+
+[node name="Tile2" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(0, -160)
+texture = ExtResource("3_o76m8")
+
+[node name="Tile3" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(265, -160)
+texture = ExtResource("4_pvaxp")
+
+[node name="Tile4" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-265, 0)
+texture = ExtResource("5_fach5")
+
+[node name="Tile5" type="Sprite2D" parent="CollisionShape2D"]
+texture = ExtResource("6_myivr")
+
+[node name="Tile6" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(265, 0)
+texture = ExtResource("7_ayfjc")
+
+[node name="Tile7" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-265, 160)
+texture = ExtResource("8_2ma8e")
+
+[node name="Tile8" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(0, 160)
+texture = ExtResource("9_1cgl0")
+
+[node name="Tile9" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(265, 160)
+texture = ExtResource("10_npbpb")

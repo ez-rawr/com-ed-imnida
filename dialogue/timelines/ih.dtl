@@ -1,0 +1,9 @@
+[style name="zaky"]
+join Billy center [animation="Zoom In" length="0.1"]
+Jasper: Mom?
+Jasper: Dad....?
+Jasper: Why is everything so quiet..
+*basement sound*
+update Jasper (sad) [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Jasper: Billy said something about strange noises...
+Jasper: Are you guys downstairs?

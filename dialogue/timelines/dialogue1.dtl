@@ -1,0 +1,15 @@
+[style name="zaky"]
+join Billy (:|) center [animation="Instant In" length="0.1"]
+Billy: Jasper! Off to exploring again, eh?
+Billy: Found anything worth forging yet?
+update Jasper (:|) [animation="Bounce" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Jasper: Not yet, but today feels different. 
+Jasper: I think I might find something incredible!
+update Billy (:|) [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Billy: Sure you will! Just don't get yourself into trouble. I heard a lot of strange noises coming from the forest last night. 
+update Jasper (sad) [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Jasper: What..?
+update Kiki (sad) [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Kiki: Tita mum also wants you home right after your laundry chores. 
+update Jasper (open smile) [animation="Heartbeat" length="0.1" fade="Fade Cross" fade_length="0.1"]
+Jasper: Oh, okay... Bye guys!

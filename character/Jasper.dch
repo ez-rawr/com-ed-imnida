@@ -1,0 +1,123 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+"default_portrait": ":|",
+"description": "Main Character",
+"display_name": "Jasper",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(-10, 0),
+"portraits": {
+":3": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/6.png\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+":|": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/3.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"WOAH": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/8.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"angry teeth": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/9.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"no mouth": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/mc avatar.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"open smile": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/avatar 1.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/10.png\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"smile teeth": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/5.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"smirk": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"woah": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/7.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"woah open": {
+"export_overrides": {
+"image": "\"res://Players/JASPER/PORTRAIT/4.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+}
+},
+"scale": 1.0
+}

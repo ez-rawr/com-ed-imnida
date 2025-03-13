@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqt47jig6g3u4"]
+
+[ext_resource type="Script" path="res://prompt.gd" id="1_b6dga"]
+
+[node name="Prompt" type="CanvasLayer"]
+script = ExtResource("1_b6dga")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -278.5
+offset_top = -182.5
+offset_right = 278.5
+offset_bottom = 182.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -86.0
+offset_top = -11.5
+offset_right = 86.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 21
+text = "Are you ready to play?"
+
+[node name="Button" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 0.5
+offset_top = 36.0
+offset_right = 0.5
+offset_bottom = 67.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "[enter]"

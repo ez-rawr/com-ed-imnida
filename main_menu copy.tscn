@@ -1,0 +1,84 @@
+[gd_scene load_steps=10 format=3 uid="uid://67k6f8pedmit"]
+
+[ext_resource type="Texture2D" uid="uid://bv86kgjiyoha0" path="res://backgrounds/The Lost Realm BGs.png" id="1_bgyil"]
+[ext_resource type="Texture2D" uid="uid://0fmgrpaydvl0" path="res://textures/START_button-removebg-preview.png" id="1_j15ti"]
+[ext_resource type="Script" path="res://main_menu.gd" id="1_veg5h"]
+[ext_resource type="Texture2D" uid="uid://cv57pi607m1rx" path="res://textures/SETTINGS_button-removebg-preview.png" id="3_88st3"]
+[ext_resource type="Texture2D" uid="uid://di70rek2rk83g" path="res://textures/start_hover-removebg-preview.png" id="3_y0aai"]
+[ext_resource type="Texture2D" uid="uid://cve0l6iwtwtub" path="res://textures/EXIT_button-removebg-preview.png" id="4_6vmyr"]
+[ext_resource type="Texture2D" uid="uid://bbwydrax65m0m" path="res://textures/settings_hover-removebg-preview.png" id="5_84l4x"]
+[ext_resource type="Texture2D" uid="uid://bt3lyqe6im8eq" path="res://textures/exit_hover-removebg-preview.png" id="7_h6pkp"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_06q4r"]
+texture = ExtResource("1_bgyil")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = 3.0
+offset_right = -4.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_veg5h")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -5.0
+offset_right = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(328, 610)
+theme_override_styles/panel = SubResource("StyleBoxTexture_06q4r")
+
+[node name="start button" type="TextureButton" parent="."]
+custom_minimum_size = Vector2(40.85, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.375868
+anchor_top = 0.54784
+anchor_right = 0.614583
+anchor_bottom = 0.714506
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_j15ti")
+texture_pressed = ExtResource("3_y0aai")
+texture_hover = ExtResource("3_y0aai")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="settings button" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.381944
+anchor_top = 0.709877
+anchor_right = 0.618924
+anchor_bottom = 0.871914
+texture_normal = ExtResource("3_88st3")
+texture_pressed = ExtResource("5_84l4x")
+texture_hover = ExtResource("5_84l4x")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="exit button" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.197049
+anchor_top = 0.873457
+anchor_right = 0.389757
+anchor_bottom = 1.00926
+texture_normal = ExtResource("4_6vmyr")
+texture_pressed = ExtResource("7_h6pkp")
+texture_hover = ExtResource("7_h6pkp")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="start button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="settings button" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="exit button" to="." method="_on_exit_button_pressed"]

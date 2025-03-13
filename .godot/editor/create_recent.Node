@@ -1,0 +1,14 @@
+TextureRect
+Label
+AnimationPlayer
+Control
+AudioStreamPlayer2D
+Timer
+ColorRect
+AnimatedSprite2D
+ProgressBar
+CollisionShape2D
+Area2D
+TileMap
+HBoxContainer
+VBoxContainer

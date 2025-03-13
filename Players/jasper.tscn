@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3 uid="uid://bsg587iyi2a0i"]
+
+[ext_resource type="Texture2D" uid="uid://bhexs1skg84dk" path="res://Players/Jasper.png" id="1_j1d2k"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xmp5g"]
+
+[sub_resource type="Animation" id="Animation_dvt27"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_q1prk"]
+resource_name = "idle_down"
+
+[sub_resource type="Animation" id="Animation_aqenr"]
+resource_name = "idle_side"
+
+[sub_resource type="Animation" id="Animation_5eixl"]
+resource_name = "idle_up"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s5b0f"]
+_data = {
+&"RESET": SubResource("Animation_dvt27"),
+&"idle_down": SubResource("Animation_q1prk"),
+&"idle_side": SubResource("Animation_aqenr"),
+&"idle_up": SubResource("Animation_5eixl")
+}
+
+[node name="Jasper" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_xmp5g")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(673, 206)
+scale = Vector2(3.22581, 3.45385)
+texture = ExtResource("1_j1d2k")
+hframes = 27
+frame = 9
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_s5b0f")
+}

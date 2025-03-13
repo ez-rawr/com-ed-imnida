@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://3wa1sih0io8j"]
+
+[ext_resource type="AudioStream" uid="uid://bhm1tj8k4g3nb" path="res://tracks/mainmenubg.MP3" id="1_gtkac"]
+
+[node name="mainmenu_bg" type="AudioStreamPlayer"]
+stream = ExtResource("1_gtkac")
+volume_db = -7.495
+autoplay = true
+bus = &"Master Volume"

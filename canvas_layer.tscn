@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvkhxxe662xed"]
+
+[ext_resource type="Texture2D" uid="uid://crqsopj78f2g8" path="res://icons!/quest icon.png" id="1_01gbi"]
+[ext_resource type="Script" uid="uid://c8888ge6lo1rp" path="res://quest_button.gd" id="1_e1urf"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="QuestButton" type="Button" parent="."]
+z_index = 100
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -62.0
+offset_bottom = 58.0
+grow_horizontal = 0
+icon = ExtResource("1_01gbi")
+flat = true
+script = ExtResource("1_e1urf")

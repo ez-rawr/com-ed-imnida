@@ -1,0 +1,72 @@
+[gd_scene load_steps=7 format=3 uid="uid://e37v6851uvqy"]
+
+[ext_resource type="Script" path="res://lv_1_draft.gd" id="1_po1yi"]
+[ext_resource type="Texture2D" uid="uid://cc8d3s0rsfkv6" path="res://backgrounds/lv1_inst.png" id="1_skc1s"]
+[ext_resource type="Texture2D" uid="uid://ddu3xt5j72g2s" path="res://textures/back_next.png" id="3_3f1vh"]
+[ext_resource type="AudioStream" uid="uid://cw5yskirixwnw" path="res://backgrounds/super_trivia/Magic Fantasy Music - The Magician.mp3" id="4_vih4f"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mwqd1"]
+texture = ExtResource("1_skc1s")
+
+[sub_resource type="GDScript" id="GDScript_gio23"]
+script/source = "extends TextureButton
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_pressed() -> void:
+	pass # Replace with function body.
+"
+
+[node name="Lv1Draft" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_po1yi")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -7.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_mwqd1")
+
+[node name="TextureButton" type="TextureButton" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.871
+anchor_top = 0.925
+anchor_right = 0.871
+anchor_bottom = 0.925
+offset_left = 58.6079
+offset_top = 39.1249
+offset_right = 204.608
+offset_bottom = 134.125
+rotation = 3.13208
+scale = Vector2(0.796963, 0.840007)
+texture_normal = ExtResource("3_3f1vh")
+stretch_mode = 0
+script = SubResource("GDScript_gio23")
+metadata/_edit_use_anchors_ = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_vih4f")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="Panel/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Panel/TextureButton" to="Panel/TextureButton" method="_on_pressed"]

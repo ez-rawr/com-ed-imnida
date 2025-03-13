@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvtwfi23iwtpr"
+path="res://.godot/imported/Inspiring Fantasy Background Music For VideosEnchanting MusicMedieval FantasyAtmospheric Ambience.mp3-28a333fe37d8a90ae6ee1d6c0023b165.mp3str"
+
+[deps]
+
+source_file="res://Inspiring Fantasy Background Music For VideosEnchanting MusicMedieval FantasyAtmospheric Ambience.mp3"
+dest_files=["res://.godot/imported/Inspiring Fantasy Background Music For VideosEnchanting MusicMedieval FantasyAtmospheric Ambience.mp3-28a333fe37d8a90ae6ee1d6c0023b165.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

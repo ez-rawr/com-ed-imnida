@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5a2lftyi5kcm"
+path="res://.godot/imported/✨샛별 - 당근 밭의 셀러리✨(Royalty Free Music) [FqI9cM6fczU] (1).mp3-2a51c83316ec9cf87bf8626a4a3075df.mp3str"
+
+[deps]
+
+source_file="res://tracks/✨샛별 - 당근 밭의 셀러리✨(Royalty Free Music) [FqI9cM6fczU] (1).mp3"
+dest_files=["res://.godot/imported/✨샛별 - 당근 밭의 셀러리✨(Royalty Free Music) [FqI9cM6fczU] (1).mp3-2a51c83316ec9cf87bf8626a4a3075df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

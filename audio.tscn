@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://csw83p1kqvns8"]
+
+[ext_resource type="Script" path="res://master_volume.gd" id="1_sla3w"]
+
+[node name="Master Volume" type="HSlider"]
+offset_left = 143.0
+offset_top = -5.0
+offset_right = 421.0
+offset_bottom = 11.0
+max_value = 1.0
+step = 0.001
+value = 1.0
+script = ExtResource("1_sla3w")

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c77y7nvr1m7r0"]
+
+[ext_resource type="Script" path="res://sound_effects.gd" id="1_gsysl"]
+
+[node name="Sound Effects" type="HSlider"]
+offset_left = 143.0
+offset_top = -5.0
+offset_right = 421.0
+offset_bottom = 11.0
+script = ExtResource("1_gsysl")

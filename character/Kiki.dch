@@ -1,0 +1,121 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+"default_portrait": ":D",
+"description": "Daughter of Billy. Sassy biatch",
+"display_name": "Kiki",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(-10, 0),
+"portraits": {
+":3": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (29).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+":D": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (22).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+":D2": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (23).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+":|": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (24).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"WOAH": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (30).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"no mouth": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/kiki.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (31).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (25).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile open1": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (27).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile open2": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (28).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"woah": {
+"export_overrides": {
+"image": "\"res://Players/KIKI/PORTRAIT/kiki avatar/avatar (26).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 1.0
+}
